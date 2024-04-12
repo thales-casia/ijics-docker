@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
+<head>
+<doi_batch_id>3d8d13581898e6394439eb</doi_batch_id>
+<timestamp>20231102005231186</timestamp>
+<depositor>
+  <depositor_name>cpsieditorial@gmail.com:agss</depositor_name> 
+  <email_address>minamoto@sina.com</email_address>
+</depositor>
+<registrant>WEB-FORM</registrant> 
+</head>
+<body>
+<journal>
+  <journal_metadata>   
+    <full_title>JOURNAL OF Cyber-Physical-Social Intelligence</full_title>   
+    <abbrev_title>CPSI</abbrev_title>   
+    <issn media_type='electronic'>28374193</issn> 
+  </journal_metadata>
+  <journal_issue>  
+  <publication_date media_type='online'>
+    <month>12</month>
+    <day>15</day>
+    <year>2022</year>   
+  </publication_date>   
+  <journal_volume>
+    <volume>1</volume>
+    </journal_volume>
+  </journal_issue>
+  <!-- ============== -->
+  <journal_article publication_type='full_text'>   
+    <titles>     
+      <title>Discrete Bat Optimizer for Disassembly Line Balancing Problem</title>   
+    </titles>
+    <contributors>
+      <person_name sequence='first' contributor_role='author'>      
+        <given_name>Jiacun</given_name>      
+        <surname>Wang</surname>      
+        <ORCID>https://orcid.org/0000-0001-6601-3515</ORCID>    
+      </person_name>    
+      <person_name sequence='additional' contributor_role='author'>       
+        <given_name>XiWang</given_name>       
+        <surname>Guo</surname>       
+        <ORCID>https://orcid.org/0000-0002-9142-1251</ORCID>     
+      </person_name>     
+      <person_name sequence='additional' contributor_role='author'>       
+        <given_name>Shujin</given_name>       
+        <surname>Qin</surname>       
+        <ORCID>https://orcid.org/0000-0002-4578-2726</ORCID>     
+      </person_name>     
+      <person_name sequence='additional' contributor_role='author'>       
+        <given_name>Qi</given_name>       
+        <surname>Zhang</surname>       
+        <ORCID>https://orcid.org/0000-0003-4518-4889</ORCID>     
+      </person_name>     
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Fuguang</given_name>       
+        <surname>Huang</surname>     
+      </person_name>   
+    </contributors>    
+    <jats:abstract xml:lang='en'>
+      <jats:p>The recycling of end-of-life (EOL) products is the primary link in the remanufacturing process. EOL products rely on disassembly lines to retain valuable parts for remanufacturing. In this work, a disassembly line balancing model is established based on an AND/OR graph. It takes precedence relation, cycle time restriction, failure risk, and time uncertainty into consideration and aims to maximize the dismantling proﬁt and minimize the energy consumption. Then, a multi-objective discrete bat optimizer based on Pareto rules is designed according to the problem model, and a precedence preserving crossover operator, a single point mutation operator and a 2-optimization operator are used to simulate the ﬂight strategy of bats to satisfy the search of feasible solutions. To speed up the convergence, we propose an elite strategy to maintain the non-dominate solutions in the external ﬁles. By decomposing products of different sizes and analyzing the experimental results, the proposed algorithm is evaluated with the existing multi-objective discrete gray wolf optimizer, artiﬁcial bee colony optimizer, non-dominated sorting genetic algorithm II, and multi-objective evolutionary algorithm based on decomposition. The effectiveness of the proposed algorithm in solving this problem is veriﬁed.</jats:p>
+    </jats:abstract>
+    <publication_date media_type='online'>
+      <month>12</month>
+      <day>15</day>
+      <year>2022</year>
+    </publication_date>
+    <pages>
+      <first_page>13</first_page>
+      <last_page>25</last_page>
+    </pages>
+    <doi_data>
+      <doi>10.61702/TDNS2312</doi>
+      <resource>https://www.j-cpsi.com/article/22</resource>
+    </doi_data>
+  </journal_article>
+  <journal_article publication_type='full_text'>   
+    <titles>     
+      <title>An Improved Adaptive Genetic Algorithm for U-shaped Disassembly Line Balancing Problem Subject to Area Resource Constraint</title>   
+    </titles>
+    <contributors>
+      <person_name sequence='first' contributor_role='author'>      
+        <given_name>XiWang</given_name>      
+        <surname>Guo</surname>      
+        <ORCID>https://orcid.org/0000-0002-9142-1251</ORCID>     
+      </person_name>       
+      <person_name sequence='additional' contributor_role='author'>       
+        <given_name>Shujin</given_name>       
+        <surname>Qin</surname>       
+        <ORCID>https://orcid.org/0000-0002-4578-2726</ORCID>     
+      </person_name>     
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Liang</given_name>       
+        <surname>Qi</surname>     
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>       
+        <given_name>Qi</given_name>       
+        <surname>Zhang</surname>       
+        <ORCID>https://orcid.org/0000-0003-4518-4889</ORCID>     
+      </person_name>
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Weishuang</given_name>       
+        <surname>Bai</surname>     
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Jiacun</given_name>      
+        <surname>Wang</surname>      
+        <ORCID>https://orcid.org/0000-0001-6601-3515</ORCID>    
+      </person_name>   
+    </contributors>    
+    <jats:abstract xml:lang='en'>
+      <jats:p>The disassembly, recovery, and reuse of waste products are attracting more and more attention. It not only saves resources and protects the environment but also promotes economic development. In a disassembly process, the disassembly line balancing problem is one of the most important problems.At present, the consideration of the space area of workstations is relatively small, and the relatively large use of the area of workstations can also better reduce costs. Aiming at the balancing problem of u-shaped disassembly line, a single-objective optimization mathematical model with area constraints is established with the goal of maximizing proﬁts. In order to solve this problem, we refer to Adaptive Genetic Algorithm and improve its crossover and mutation operator. We adopt elite strategy to avoid premature convergence and improve the global search ability. Its effectiveness is proved by comparison with the optimization results of CPLEX. Experimental results also verify the feasibility of the proposed model and the superiority of the improved Adaptive Genetic Algorithm when solving large-scale instances over another algorithm. At the same time, the experimental results also verify the superiority and effectiveness of the improved Adaptive Genetic Algorithm algorithm by comparing with Random Search.</jats:p>
+    </jats:abstract>
+    <publication_date media_type='online'>
+      <month>12</month>
+      <day>15</day>
+      <year>2022</year>
+    </publication_date>
+    <pages>
+      <first_page>47</first_page>
+      <last_page>59</last_page>
+    </pages>
+    <doi_data>
+      <doi>10.61702/ZLAS2069</doi>
+      <resource>https://www.j-cpsi.com/article/24</resource>
+    </doi_data>
+  </journal_article>
+  <journal_article publication_type='full_text'>   
+    <titles>     
+      <title>CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication</title>   
+    </titles>
+    <contributors>
+      <person_name sequence='first' contributor_role='author'>      
+        <given_name>Shuqiang</given_name>      
+        <surname>Yang</surname>      
+      </person_name>       
+      <person_name sequence='additional' contributor_role='author'>       
+        <given_name>Yiquan</given_name>       
+        <surname>Wu</surname>       
+      </person_name>     
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Xin</given_name>       
+        <surname>Jin</surname>     
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>       
+        <given_name>Mounim</given_name>       
+        <surname>el yacoubi</surname>       
+        <ORCID>https://orcid.org/0000-0002-7383-0588</ORCID>     
+      </person_name>  
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Huafeng</given_name>      
+        <surname>Qin</surname>      
+        <ORCID>https://orcid.org/0000-0003-4911-0393</ORCID>    
+      </person_name>   
+    </contributors>    
+    <jats:abstract xml:lang='en'>
+      <jats:p>Palm-vein recognition has been the focus of large research efforts over the last years. However, despite the effectiveness of deep learning models, in particular Convolutional Neural Networks (CNNs), in automatically learning robust feature representations, thereby obtaining good accuracy, such good performance is usually obtained at the expense of annotating a large training dataset. Labeling vein images, however, is an expensive and tedious process. Although handcrafted schemes for data augmentation usually increase slightly performance, they are unable to cover complex variations inherently characterizing such images. To overcome this issue, we propose a new unsupervised domain adaptation model, called CycleGAN-based domain adaptation (CGAN-DA), that extracts discriminant representation from the palmvein images, without requiring any image labeling. Our CGAN-DA models allows a conjoint adaptation, at the image and feature levels. Specifically, in order to enhance the extracted features’ domain-invariance, image appearance is transformed across two domains, palm-vein domain and retinal domain. We employ several adversarial losses namely a segmentation loss and a cycle consistence loss to train our model without any annotation from the target domain (palm-vein images). Our experiments on the public CASIA palm-vein dataset demonstrates that our models significantly outperforms the s tart of the art in terms of verification accuracy.</jats:p>
+    </jats:abstract>
+    <publication_date media_type='online'>
+      <month>12</month>
+      <day>15</day>
+      <year>2022</year>
+    </publication_date>
+    <pages>
+      <first_page>3</first_page>
+      <last_page>12</last_page>
+    </pages>
+    <doi_data>
+      <doi>10.61702/YRMC5182</doi>
+      <resource>https://www.j-cpsi.com/article/21</resource>
+    </doi_data>
+  </journal_article>
+  <journal_article publication_type='full_text'>   
+    <titles>     
+      <title>Designing a resilient supply chain through a robust adaptive model predictive control policy under perishable goods and uncertain forecast information</title>   
+    </titles>
+    <contributors>
+      <person_name sequence='first' contributor_role='author'>      
+        <given_name>Beatrice</given_name>      
+        <surname>Ietto</surname>
+        <ORCID>https://orcid.org/0000-0001-5617-8228</ORCID>  
+      </person_name>       
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>valentina</given_name>      
+        <surname>orsini</surname>      
+        <ORCID>https://orcid.org/0000-0003-4965-5262</ORCID>    
+      </person_name>   
+    </contributors>    
+    <jats:abstract xml:lang='en'>
+      <jats:p>We consider the inventory control problem for Supply Chains (SC) with deteriorating items and an uncertain future customer demand freely varying inside a given compact set. The problem is to deﬁne a resilient Replenishment Policy (RP) keeping the actual inventory level as close as possible to a desired reference trajectory. This requirement should be satisﬁed despite uncertainties on the decay factor of stocked goods and unexpected customer demand patterns outside the bounds of the compact set. We propose a method based on a Resilient Robust Model Predictive Control (RRMPC) approach. This requires dealing with a Min-Max Constrained Optimization Problem (MMCOP). To reduce the numerical complexity of the algorithm, the control signal is parametrized using B-spline functions.</jats:p>
+    </jats:abstract>
+    <publication_date media_type='online'>
+      <month>12</month>
+      <day>15</day>
+      <year>2022</year>
+    </publication_date>
+    <pages>
+      <first_page>26</first_page>
+      <last_page>34</last_page>
+    </pages>
+    <doi_data>
+      <doi>10.61702/HVMQ5712</doi>
+      <resource>https://www.j-cpsi.com/article/23</resource>
+    </doi_data>
+  </journal_article>
+  <journal_article publication_type='full_text'>   
+    <titles>     
+      <title>Research on Aircraft image recognition based on transfer learning and improved YOLOv5 model</title>   
+    </titles>
+    <contributors>
+      <person_name sequence='first' contributor_role='author'>      
+        <given_name>Huanyu</given_name>      
+        <surname>Yang</surname>
+      </person_name>       
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Lijun</given_name>      
+        <surname>Yang</surname>      
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Yuming</given_name>      
+        <surname>Bo</surname>      
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Jun</given_name>      
+        <surname>Wang</surname>      
+      </person_name>   
+    </contributors>    
+    <jats:abstract xml:lang='en'>
+      <jats:p>Effective differentiation of aircraft types using images is important for providing military combat information as well as civilian aircraft operations. Aircraft image recognition has many difficulties such as large variations of target scale, complex backgrounds, and difficult data set acquisition, which lead to the low recognition accuracy of existing models. To address the problem of low recognition accuracy caused by the above difficulties. This paper proposes the improved YOLOv5 model for the recognition of aircraft images. First, this paper designs the CSPResNet50dCA network as the backbone of the YOLOv5 model to enhance the feature extraction capability for small target aircraft in images. By introducing the coordinate attention mechanism and the CSP structure, the feature-focusing capability and the computing speed of the model are enhanced. Afterward, we use data enhancement to expand the data set and transfer learning to improve the generalization ability and convergence speed of the model, so as to improve its robustness. The experimental results show that the improved YOLOv5 model has significantly improved the recognition accuracy of aircraft targets， and significantly enhanced feature extraction ability for small target aircraft with good generalization ability.</jats:p>
+    </jats:abstract>
+    <publication_date media_type='online'>
+      <month>12</month>
+      <day>15</day>
+      <year>2022</year>
+    </publication_date>
+    <pages>
+      <first_page>35</first_page>
+      <last_page>46</last_page>
+    </pages>
+    <doi_data>
+      <doi>10.61702/GOPK6999</doi>
+      <resource>https://www.j-cpsi.com/article/11</resource>
+    </doi_data>
+  </journal_article>
+
+
+   <journal_article publication_type='full_text'>   
+    <titles>     
+      <title>A Diffusion Model with A FFT for Image Inpainting</title>   
+    </titles>
+    <contributors>
+      <person_name sequence='first' contributor_role='author'>      
+        <given_name>Yuxuan</given_name>      
+        <surname>Hu</surname>
+      </person_name>       
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Hanting</given_name>      
+        <surname>Wang</surname>      
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Cong</given_name>      
+        <surname>Jin</surname>      
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Bo</given_name>      
+        <surname>Li</surname>      
+      </person_name>   
+      <person_name sequence='additional' contributor_role='author'>
+        <given_name>Chunwei</given_name>      
+        <surname>Tian</surname>      
+      </person_name>   
+    </contributors>    
+    <jats:abstract xml:lang='en'>
+      <jats:p>Diffusion models for image inpainting have been the subject of growing research interest in recent years. However, generating content that is consistent with the original images, especially for complex images with intricate details and structural information, remains a significant challenge. In this paper, we propose a diffusion model with an FFT (FFT-DM) to generate content that matches missing region texture and semantics to inpaint damaged images. Specifically, FFT-DM contains two components: a Denoising Diffusion Probabilistic Model (DDPM) and a Convolutional Neural Network (CNN). The DDPM is used to extract global features and generate image prior while the CNN captures more fine-grained details and predicts the parameters in the reverse process of the diffusion model. Notably, we integrate a Fast Fourier Transform (FFT) into the diffusion model to enhance the perception ability and improve the efficiency of the model. Extensive experiments demonstrate that FFT-DM outperforms current state-of-the-art inpainting approaches in terms of qualitative and quantitative analysis.</jats:p>
+    </jats:abstract>
+    <publication_date media_type='online'>
+      <month>12</month>
+      <day>15</day>
+      <year>2022</year>
+    </publication_date>
+    <pages>
+      <first_page>60</first_page>
+      <last_page>69</last_page>
+    </pages>
+    <doi_data>
+      <doi>10.61702/MTPG8588</doi>
+      <resource>https://www.j-cpsi.com/article/25</resource>
+    </doi_data>
+  </journal_article>
+
+</journal>
+</body>
+</doi_batch>

@@ -1,0 +1,67 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+
+  
+  ijics:
+    container_name: journal-ijics
+    build: 
+      context: ./docker/fastapi
+    depends_on:
+      - postgres
+      - mongo
+    links: 
+      - postgres
+      - mongo
+    ports:
+      - 9512:9512
+    volumes:
+      - ./server/fastapi/ijics:/app
+      - ./server/files/ijics:/files
+    env_file: ./docker/fastapi/ijics.conf
+    restart: always
+
+
+  postgres:
+    container_name: journal-postgres
+    image: postgres
+    env_file: ./docker/postgres/database.conf
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      - ./server/postgres/data:/var/lib/postgresql/data
+          
+  dbweb:
+    container_name: journal-dbweb
+    image: adminer
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+    links: 
+      - postgres
+    restart: always
+
+  mongo:
+    container_name: journal-mongo
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - ./server/mongo/db:/data/db   # /data/db是container中存放数据位置
+    restart: always
+
+  mongoweb:
+    container_name: journal-mongoweb
+    image: mongo-express
+    ports:
+      - 8081:8081
+    depends_on:
+      - mongo
+    links:
+      - mongo  # 这里关联到mongo的container
+    env_file: ./docker/mongo/visit.conf
+    restart: always
+
